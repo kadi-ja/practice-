@@ -11,6 +11,5 @@ char *_strdup(char *str)
   else
     
     return (qtr);
-  free(ptr);
-  
+
 }
