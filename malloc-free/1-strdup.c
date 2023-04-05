@@ -5,13 +5,12 @@ char *_strdup(char *str)
 {
   char *ptr;
   char *qtr;
- if (size == NULL)
-   return (NULL);
+ qtr = &str;
   ptr = (char*)malloc(sizeof(str));
   if (str == NULL)
     return (NULL);
   else
-     qtr = &str;
+    
     return (qtr);
   free(ptr);
   
